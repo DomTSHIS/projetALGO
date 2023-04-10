@@ -7,6 +7,9 @@ v= [0]
 t = [0]
 h = 1e-3
 
+"""
+Implementation du programme
+"""
 
 for i in range(0,10000):
     x.append(x[i]+h*v[i])
