@@ -14,5 +14,6 @@ ys =us[:,0]
 
 plt.plot(xs,ys,'-')
 plt.plot(xs,ys,'r*')
-
+plt.xlabel("x(t)")
+plt.ylabel("t[s]")
 plt.show()
