@@ -1,10 +1,4 @@
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr  8 21:48:21 2023
-
-@author: Maruba
-"""
 
 from matplotlib import pyplot as plt
 from scipy.integrate import odeint
