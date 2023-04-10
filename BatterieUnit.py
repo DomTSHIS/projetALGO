@@ -2,6 +2,7 @@
 from GestionClient import *
 import unittest
 
+
 class payement(unittest.TestCase):
     """  Cette classe est pour tester """
     def test_should_return_Solde(self):
@@ -358,5 +359,6 @@ class payement(unittest.TestCase):
         print(len(GestionClient))
 
 if __name__ == "__main__":
+    print("Batterie de test complete du projet ")
     unittest.main()
 
