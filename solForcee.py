@@ -1,12 +1,11 @@
-
-
 from matplotlib import pyplot as plt
 from scipy.integrate import odeint
 import numpy as np
 import math
 
-
-
+"""
+implementation du programme...
+"""
 def f(u,x):
     return (u[1],-2*u[1]-400*u[0]+10*np.cos(10*x))
 
