@@ -12,9 +12,6 @@ xs = np.linspace(1,10,400)
 us = odeint(f,x0,xs)
 ys =us[:,0]
 
-
-
-
 plt.plot(xs,ys,'-')
 plt.plot(xs,ys,'r*')
 
